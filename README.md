@@ -22,7 +22,7 @@ This is an ad-hoc solution I came up with in order to *avoid buying overpriced m
 ```
 - Connect sender and receiver on local network and find sender's ip address
 	- Either use direct connection (hotspot -> wifi) or indirect (wifi <- hotspot -> wifi) or global carrier (-> 3G/4G, -> 3G/4G, its costly)
-	- preferred mode is wifi with 5GHz band (provides ~12MBps)
+	- preferred mode is wifi with 5GHz band (provides ~15MBps)
 	- To find ip address of hotspot connected devices if you're using android, install [Termux](https://termux.com/) and run command `ip neigh`
 
 - Put your file in repo folder for example data.txt
