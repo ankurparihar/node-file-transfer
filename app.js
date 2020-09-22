@@ -9,5 +9,6 @@ filename = 'data.txt'
 
 app.get('/', (req, res) => {
 	const file = `${__dirname}/${filename}`;
+	// const file = `C:/Users/Ankur Parihar/Desktop/file.txt`; <---- to provide full path do it like this
 	res.download(file)
 })

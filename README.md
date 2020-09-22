@@ -27,6 +27,9 @@ This is an ad-hoc solution I came up with in order to *avoid buying overpriced m
 
 - Put your file in repo folder for example data.txt
 - change `filename` variable to your file's name in [app.js](./app.js)
+
+__Note__ : If it is inconvenient to move/copy file to repo folder you can also provide full path to `file`
+
 - All setup done! run the server
 ```
 	npm start
