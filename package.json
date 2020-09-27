@@ -1,5 +1,5 @@
 {
-	"name": "server-response",
+	"name": "node-file-transfer",
 	"version": "1.0.0",
 	"description": "Node.js file transfer",
 	"main": "app.js",

@@ -24,8 +24,11 @@ This is an ad-hoc solution I came up with in order to *avoid buying overpriced m
 	- Either use direct connection (hotspot -> wifi) or indirect (wifi <- hotspot -> wifi) or global carrier (-> 3G/4G, -> 3G/4G, its costly)
 	- preferred mode is wifi with 5GHz band (provides ~15MBps)
 	- To find ip address of hotspot connected devices if you're using android, install [Termux](https://termux.com/) and run command `ip neigh`
-
+- You may have to temporarily disable firewall or add an inbound rule.
 - Put your file in repo folder for example data.txt
+
+__Note__ : If there are multiple small files, its easy to transfer their zip in one go.
+
 - change `filename` variable to your file's name in [app.js](./app.js)
 
 __Note__ : If it is inconvenient to move/copy file to repo folder you can also provide full path to `file`
